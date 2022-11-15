@@ -1,0 +1,309 @@
+/* Full Tags */
+
+body {
+  background-color: #ffffff;
+  color: #202426;
+  padding: 0;
+  margin: 0;
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --navbar-height: 40px;
+}
+
+/* Header styling */
+
+.s-nav {
+  max-width: 100%;
+  position: relative;
+}
+
+/* logo styling */
+
+.logo {
+  margin-top: 8px;
+  margin-right: 8%;
+  margin-left: 3%;
+  width: 90px;
+  float: left;
+}
+.logo img {
+  width: 112px;
+  height: 112px;
+}
+
+/* navbar styling */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  height: 98px;
+  position: relative;
+  background: transparent;
+  z-index: 99;
+}
+
+#navbar ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1rem;
+  width: 15rem;
+}
+#navbar ul li a {
+  display: block;
+  padding: 10px  5px;
+  margin: 2rem 40px 2rem;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-family: "Bona Nova", serif;
+  position: relative;
+}
+
+/* navbar underline style */
+
+/* #navbar ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0.2%;
+  right: 10rem;
+  top: 100%;
+  margin: auto;
+  background-color: #f5f5f5;
+  color: #f5f5f5;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s linear;
+}
+
+#navbar ul li a:hover {
+  color: #f5f5f5;
+}
+
+#navbar ul li a:hover::after {
+  width: 60%;
+} */
+
+#navbar ul li a:hover {
+ color: #d6d6d6;
+ width: 10rem;
+} 
+
+#carousel-banner {
+  margin-top: -100px;
+}
+#carousel-banner .carousel-caption {
+  padding-bottom: 50px;
+}
+.carousel-item img{
+  height: 700px;
+  width: 100%;
+}
+.c1 {
+  height: 700px;
+}
+.c2 {
+  height: 700px;
+}
+.c3 {
+  height: 700px;
+}
+
+.carousel-control-prev {
+  padding-right: 40px;
+}
+
+.carousel-control-next {
+  padding-left: 40px;
+}
+.btn2-0 {
+  border: 4px solid black;
+  font-size: 1.29rem;
+}
+
+@media (max-width: 350px) {
+
+  .carousel-item img {
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+
+  }
+  .carousel-control-prev{
+    padding: 0;
+  }
+
+  .carousel-control-next{
+    padding: 0;
+  }
+}
+  @media (min-width:350px) and (max-width: 600px) {
+
+    .carousel-item img {
+      width: 100%;
+      height: 350px;
+      box-sizing: border-box;
+  
+    }
+    .carousel-control-prev{
+      padding: 0;
+    }
+  
+    .carousel-control-next{
+      padding: 0;
+    }
+ 
+  }
+  
+
+  .middle #banner2 {
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .middle #banner3 {
+    margin-left: 87px;
+
+    flex-direction: column;
+  }
+
+  #banner4 {
+    margin-left: 35px;
+
+    flex-direction: column;
+  }
+
+  #banner1 .sale1 {
+    padding: 0;
+    width: 58%;
+  }
+
+  .Sale-banner {
+    width: 100%;
+  }
+  
+  
+}
+
+.intro3 {
+  position: absolutea;
+  bottom: 3.25rem;
+  left: 69%;
+}
+
+@media only screen and (max-width: 982px) {
+  .intro3 {
+    width: 28%;
+    position: absolute;
+    left: 64%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .intro-3 {
+    width: 146%;
+    position: relative;
+    right: 45%;
+  }
+}
+
+.old {
+  font-size: 2.3rem;
+  font-family: "Abril Fatface", cursive;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.middle #banner2 {
+  margin: 35px 0 0 35px;
+  padding-top: 40px;
+  display: flex;
+}
+.middle #banner3 {
+  margin-left: 35px;
+
+  display: flex;
+}
+.middle #banner4 {
+  margin-left: 60px;
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+}
+#banner2 .btn2:hover {
+  background-color: #4c4c4c;
+}
+#banner3 .btn2:hover {
+  background-color: #4c4c4c;
+}
+#banner4 .btn2:hover {
+  background-color: #4c4c4c;
+}
+
+.card {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #202426;
+}
+div .card-body {
+  line-height: 1.3;
+  font-size: 1rem;
+}
+.card-title {
+  margin-bottom: 20px;
+}
+#banner2 .phone2 {
+  height: 1611px;
+  margin-left: 25px;
+}
+#banner4 .phone3 {
+  margin-left: 25px;
+  width: 78rem;
+}
+
+.oppo-banner {
+  width: 450px;
+  height: 700px;
+}
+
+.vivo-banner {
+  width: 450px;
+  height: 500px;
+}
+
+.samsung-banner {
+  width: 450px;
+  height: 500px;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+.oneplus-banner {
+  width: 450px;
+  height: 700px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.huawei-banner {
+  width: 450px;
+  height: 457px;
+
+  padding-bottom: 0;
+}
+.mi-banner {
+  width: 450px;
+  height: 500px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.card-group {
+    width: 100%;
+    padding-left: 10%;
+}
+.phone3 {
+    padding-left: 8%;
+}
